@@ -15,6 +15,11 @@
   "devDependencies": {
     "angular-mocks": "1.2.6",
     "angular-scenario": "1.2.6",
-    "bootstrap-ios7": "~2.0.0"
+    "bootstrap-ios7": "~2.0.0",
+    "jquery-ui": "~1.11.1",
+    "jquery-mobile": "~1.4.4"
+  },
+  "resolutions": {
+    "jquery-ui": "~1.11.1"
   }
 }
