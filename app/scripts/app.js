@@ -12,6 +12,10 @@ angular.module('hurbApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/recommendations', {
+        templateUrl: 'views/recommendations.html',
+        controller: 'RecommendationsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
