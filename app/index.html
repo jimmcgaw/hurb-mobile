@@ -9,10 +9,13 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/cover.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -28,19 +31,40 @@
 
     <!-- Add your site or application content here -->
     <div class="container">
-      <div class="header">
-        
-        <h3 class="text-muted">hurb</h3>
-      </div>
+      <div class="site-wrapper">
 
-      <!-- content goes here -->
-      <div ng-view=""></div>
+            <div class="site-wrapper-inner">
 
-      <!-- end content -->
+              <div class="cover-container">
 
-      <div class="footer">
-        <p>We ♥ da herbs</p>
-      </div>
+                <div class="masthead clearfix">
+                  <div class="inner">
+                    <h3 class="masthead-brand">Hurb Garden</h3>
+                    <ul class="nav masthead-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Recommendations</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- content goes here -->
+                <div class="inner-cover">
+                  <div ng-view=""></div>
+                </div>
+
+                <!-- end content -->
+
+              <div class="mastfoot">
+                <div class="inner">
+                  <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
     </div>
 
     <!--[if lt IE 9]>
@@ -52,13 +76,14 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->

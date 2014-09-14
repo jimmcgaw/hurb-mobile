@@ -1,4 +1,6 @@
-
+body {
+  font-family: 'Raleway', sans-serif;
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .marketing,
@@ -83,3 +85,7 @@
   padding-top:0;
 }
 
+.panel-body{
+  color:black;
+  font-weight:bold;
+}
